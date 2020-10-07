@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-2.0",
+  "version": "1.0.0",
+  "description": "Time to test what I've learned - build a new portfolio is 3-4 hours 😤",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goodlvn/portfolio-2.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goodlvn/portfolio-2.0/issues"
+  },
+  "homepage": "https://github.com/Goodlvn/portfolio-2.0#readme",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "inquirer": "^7.3.3"
+  }
+}
