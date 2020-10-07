@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,53 +8,78 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>JD's World</title>
 </head>
-<body class="grid-container">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="./index.html">
-            <h1>JD's WORLD</h1>
-          </a>
-      
-          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-      
-        <div id="mobileMenu" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="./index.html">
-              About Me
-            </a>
-      
-            <a class="navbar-item" href="./portfolio.html">
-              Portfolio
-            </a>
 
-            <a class="navbar-item" href="./contact.html">
-                Contact Me
-            </a>
-      </nav>
-      <main class="content">
+<body>
+    <section class="grid-container">
+        <nav class="navbar light-blu" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="./index.html">
+                    <h1 id="logo">JD's WORLD</h1>
+                </a>
 
-      </main>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="mobileMenu" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="./index.html">
+                        About Me
+                    </a>
+
+                    <a class="navbar-item" href="./portfolio.html">
+                        Portfolio
+                    </a>
+
+                    <a class="navbar-item" href="./contact.html">
+                        Contact Me
+                    </a>
+        </nav>
+        <main class="content mx-6">
+
+            <div class="tile is-ancestor mt-5 about-me">
+                <div class="tile is-1"></div>
+                <div class="tile is-10">
+                    <section class="tile is-parent box notification light-blu">
+                        <div class="tile is-child p-4 is-vertical-center">
+                            <div>
+                                <img id="about-pic" class="mx-4" src="assets/images/aboutme.jpg" alt="placeholder image of myself">
+                                <p id="name" class="title m-3 center">JD Martinez</p>
+                                <p class="m-2">I am an aspiring front end web developer and digital marketer. I have been in the aquatics industry for the last 5 years where I have honed my communication and leadership skills. I am excited to dive into the next chapter
+                                    of my life and career. Although I am in the process of gaining more work experience you can rest assured that I am here to listen to what your needs as a client are. My attention to detail along with good communication
+                                    skills will ensure an outcome that we will both be proud of.</p>
+                                <p class="m-2">A little bit about me: I am the oldest of five! I grew up all over the bay area and feel most at home in the pennisula and south bay! I love playing underwater hockey (our team got second place at nationals 2019 and am
+                                    currrently training to join the mens international team) I also love playing magic the gathering (specifically in the commander format)</p>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+                <div class="tile is-1"></div>
+            </div>
+
+        </main>
 
 
-      <footer class="footer p-5">
-        <div class="content has-text-centered">
-          <p>
-            <strong>JD's WORLD</strong> by <a href="https://jgthms.com">Jonathan-David Lopez Martinez</a>
-            <!-- add social media links -->
-          </p>
-          <a href="https://www.linkedin.com/in/jonathan-martinez-316406113/" target="_blank"><img class="social-icons m-2" src="assets/images/linkedin.svg"></a>
-          <a href="https://github.com/Goodlvn" target="_blank"><img class="social-icons m-2" src="assets/images/github.svg"></a>
-          <a href="https://twitter.com/focus4ursoul" target="_blank"><img class="social-icons m-2" src="assets/images/twitter.svg"></a>
-          <a href="https://www.facebook.com/profile.php?id=100001460527622" target="_blank"><img class="social-icons m-2" src="assets/images/facebook.svg"></a>
-        </div>
-      </footer>
+        <footer class="footer p-5 light-blu bottom">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>JD's WORLD</strong> by <a href="https://jgthms.com">Jonathan-David Lopez Martinez</a>
+                    <!-- add social media links -->
+                </p>
+                <a href="https://www.linkedin.com/in/jonathan-martinez-316406113/" target="_blank"><img class="social-icons m-2" src="assets/images/linkedin.svg"></a>
+                <a href="https://github.com/Goodlvn" target="_blank"><img class="social-icons m-2" src="assets/images/github.svg"></a>
+                <a href="https://twitter.com/focus4ursoul" target="_blank"><img class="social-icons m-2" src="assets/images/twitter.svg"></a>
+                <a href="https://www.facebook.com/profile.php?id=100001460527622" target="_blank"><img class="social-icons m-2" src="assets/images/facebook.svg"></a>
+            </div>
+        </footer>
 
-      <!-- script tags -->
-      <script src="./script.js"></script>
+        <!-- script tags -->
+    </section>
+    <script src="./script.js"></script>
 </body>
+
 </html>

@@ -1,19 +1,68 @@
+html {
+    background-color: #0A4010;
+}
+
+body {
+    background-color: #0A4010;
+}
+
+.light-blu {
+    background-color: #E0FCFF;
+}
+
+.light-green {
+    background-color: #B2F9BB;
+}
+
 .grid-container {
-    grid-template-rows: 52px 1fr auto; 
+    grid-template-rows: 52px 1fr auto;
     /* 52px is height of the header */
-    grid-template-areas:'header' 'content' 'footer';
+    grid-template-areas: 'header' 'content' 'footer';
     display: grid;
     height: 100vh;
-  }
-  
-  .grid-content {
-    grid-area: content;
-  }
-  
-  footer {
-    grid-area: footer;
-  }
+}
 
-  .social-icons {
+.grid-content {
+    grid-area: content;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.social-icons {
     height: 33px;
-  }
+}
+
+.about-me {
+    min-height: 60vh;
+}
+
+#about-pic {
+    float: left;
+    height: 250px;
+}
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-size: 1.15em;
+}
+
+#logo {
+    font-weight: bold !important;
+}
+
+@media only screen and (max-width: 650px) {
+    #about-pic {
+        float: none;
+        display: block;
+        margin: 0 auto !important;
+    }
+    #name {
+        text-align: center;
+    }
+}
