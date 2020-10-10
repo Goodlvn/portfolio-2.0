@@ -1,9 +1,9 @@
 html {
-    background-color: #0A4010;
+    background-color: #6dbe61;
 }
 
 body {
-    background-color: #0A4010;
+    background-color:#6dbe61;
 }
 
 .light-blu {
@@ -11,7 +11,7 @@ body {
 }
 
 .light-green {
-    background-color: #B2F9BB;
+    background-color: #21b466;
 }
 
 .grid-container {
@@ -55,6 +55,12 @@ p {
 #logo {
     font-weight: bold !important;
 }
+
+.column p {
+    font-size: 1em;
+}
+
+
 
 @media only screen and (max-width: 650px) {
     #about-pic {
