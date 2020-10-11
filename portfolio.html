@@ -16,7 +16,8 @@
                 <h1 id="logo">JD's WORLD</h1>
             </a>
 
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -26,74 +27,78 @@
         <div id="mobileMenu" class="navbar-menu">
             <div class="navbar-start">
                 <a class="navbar-item" href="./index.html">
-          About Me
-        </a>
+                    About Me
+                </a>
 
                 <a class="navbar-item" href="./portfolio.html">
-          Portfolio
-        </a>
+                    Portfolio
+                </a>
 
                 <a class="navbar-item" href="./contact.html">
-          Contact Me
-        </a>
+                    Contact Me
+                </a>
     </nav>
 
 
-    <main class="columns is-desktop is-vcentered m-0 ">
-        <div class="column light-blu m-4">
+    <main class="columns is-desktop is-vcentered m-0 projects">
+        <div id="one" class="column light-blu m-4">
             <p class="title">Connected Politics</p>
-            <p class="subtitle">A web app that informs you of your elected officials and upcoming bills being voted on in the house of representatives</p>
-            <a href="https://goodlvn.github.io/connected-politics/" target="_blank"><img src="./assets/images/cp_gify.gif"></a>
+            <p class="subtitle">A web app that informs you of your elected officials and upcoming bills being voted on
+                in the house of representatives</p>
+            <a href="https://goodlvn.github.io/connected-politics/" target="_blank"><button class="button is-rounded is-small">Live Site</button></a>
+            <button class="button is-rounded is-small gifBtn">Gif Demo</button>
+
         </div>
-        <div class="column light-blu m-4">
+        <div id="two" class="column light-blu m-4">
             <p class="title">Day Planner</p>
-            <p class="subtitle">A web app that lets you plan your day on a 9-5 schedule. It utilizes local storage to have ipnut persist through browser refresh or closures</p>
-            <a href="https://goodlvn.github.io/day-planner/" target="_blank"><img src="./assets/images/dp-1.gif"></a>
+            <p class="subtitle">A web app that lets you plan your day on a 9-5 schedule. It utilizes local storage to
+                have ipnut persist through browser refresh or closures</p>
+            <a href="https://goodlvn.github.io/day-planner/" target="_blank"><button class="button is-rounded is-small">Live Site</button></a>
+            <button class="button is-rounded is-small gifBtn">Gif Demo</button>
+            
         </div>
-        <div class="column light-blu m-4">
+        <div id="three" class="column light-blu m-4 test">
             <p class="title">HunterXHunter Quiz</p>
-            <p class="subtitle">Find out how much you remember about the 2011 hunterxhunter anime! The app uses local storage to save your score so you can try again!</p>
-                <a href="https://goodlvn.github.io/hunterxhunter-timed-quiz/" target="_blank"><img src="./assets/images/hxh_quiz.gif"></a>
+            <p class="subtitle">Find out how much you remember about the 2011 hunterxhunter anime! The app uses local
+                storage to save your score so you can try again!</p>
+            <a href="https://goodlvn.github.io/hunterxhunter-timed-quiz/" target="_blank"><button class="button is-rounded is-small">Live Site</button></a>
+            <button class="button is-rounded is-small gifBtn">Gif Demo</button>
+            
         </div>
 
-        <!-- <div class="tile is-ancestor m-5">
-            <div class="tile">
-                <div class="tile is-parent">
-                    <article class="tile is-child notification is-info">
-                        <p class="title">Middle tile</p>
-                        <p class="subtitle">With an image</p>
-                        <figure class="image is-4by3">
-                            <img src="https://bulma.io/images/placeholders/640x480.png">
-                        </figure>
-                    </article>
-                </div>
-            </div>
-            <div class="tile">
-                <div class="tile is-parent">
-                    <article class="tile is-child notification is-info">
-                        <p class="title">Middle tile</p>
-                        <p class="subtitle">With an image</p>
-                        <figure class="image is-4by3">
-                            <img src="https://bulma.io/images/placeholders/640x480.png">
-                        </figure>
-                    </article>
-                </div>
-            </div>
-            <div class="tile">
-                <div class="tile is-parent">
-                    <article class="tile is-child notification is-info">
-                        <p class="title">Middle tile</p>
-                        <p class="subtitle">With an image</p>
-                        <figure class="image is-4by3">
-                            <img src="https://bulma.io/images/placeholders/640x480.png">
-                        </figure>
-                    </article>
-                </div>
-            </div>
-        </div> -->
+        
 
+        <div class="modal-container">
+            <div data-proj="one" class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image is-4by3">
+                        <img src="./assets/images/cp_gify.gif" alt="">
+                    </p>
+                </div>
+                <button class="modal-close is-large" aria-label="close"></button>
+            </div>
 
+            <div data-proj="two" class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image is-4by3">
+                        <img src="./assets/images/dp-1.gif" alt="">
+                    </p>
+                </div>
+                <button class="modal-close is-large" aria-label="close"></button>
+            </div>
 
+            <div data-proj="three" class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image is-4by3">
+                        <img src="./assets/images/hxh_quiz.gif" alt="">
+                    </p>
+                </div>
+                <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+        </div>
     </main>
 
 
@@ -103,10 +108,14 @@
                 <strong>JD's WORLD</strong> by <a href="https://jgthms.com">Jonathan-David Lopez Martinez</a>
                 <!-- add social media links -->
             </p>
-            <a href="https://www.linkedin.com/in/jonathan-martinez-316406113/" target="_blank"><img class="social-icons m-2" src="assets/images/linkedin.svg"></a>
-            <a href="https://github.com/Goodlvn" target="_blank"><img class="social-icons m-2" src="assets/images/github.svg"></a>
-            <a href="https://twitter.com/focus4ursoul" target="_blank"><img class="social-icons m-2" src="assets/images/twitter.svg"></a>
-            <a href="https://www.facebook.com/profile.php?id=100001460527622" target="_blank"><img class="social-icons m-2" src="assets/images/facebook.svg"></a>
+            <a href="https://www.linkedin.com/in/jonathan-martinez-316406113/" target="_blank"><img
+                    class="social-icons m-2" src="assets/images/linkedin.svg"></a>
+            <a href="https://github.com/Goodlvn" target="_blank"><img class="social-icons m-2"
+                    src="assets/images/github.svg"></a>
+            <a href="https://twitter.com/focus4ursoul" target="_blank"><img class="social-icons m-2"
+                    src="assets/images/twitter.svg"></a>
+            <a href="https://www.facebook.com/profile.php?id=100001460527622" target="_blank"><img
+                    class="social-icons m-2" src="assets/images/facebook.svg"></a>
         </div>
     </footer>
 
